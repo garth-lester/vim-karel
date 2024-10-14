@@ -48,8 +48,8 @@ set cpo&vim
 setlocal mouse=a     "Enables mouse click
 
 let delphi_space_errors = 1
-let delphi_leading_space_error = 1
-"let  delphi_leading_tab_error = 1
+let delphi_leading_space_error = 0
+let delphi_leading_tab_error = 1
 let delphi_trailing_space_error = 1
 let delphi_highlight_function_parameters = 1
 let delphi_highlight_uppercase_consts = 1
