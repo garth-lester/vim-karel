@@ -7,6 +7,6 @@
 augroup delphi_ftdetect
   "autocmd! 
   "autocmd! BufNewFile,BufRead *.pas,*.dpr,*.dpk,*.inc
-  autocmd BufNewFile,BufRead *.pas,*.dpr,*.dpk,*.inc set ft=delphi
+  autocmd BufNewFile,BufRead *.pas,*.dpr,*.dpk,*.inc,*.kl set ft=delphi
   autocmd FileType delphi compiler delphi
 augroup END
