@@ -30,7 +30,10 @@
 nmap <buffer> <nowait> <leader>sd :call delphi#SwitchPasOrDfm()<CR>
 nmap <buffer> <nowait> <leader>sp :call delphi#SwitchPasOrDfm()<CR>
 
-setlocal noexpandtab 
+"setlocal noexpandtab
+setlocal expandtab
+setlocal tabstop=2
+setlocal shiftwidth=2
 " setlocal foldmethod=syntax
 " set foldlevelstart=99 " folds are closed initially
 
@@ -41,5 +44,5 @@ else
   let b:undo_ftplugin = ''
 endif
 
-let b:undo_ftplugin .= "setlocal noexpandtab<" 
+"let b:undo_ftplugin .= "setlocal noexpandtab<" 
 
