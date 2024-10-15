@@ -43,8 +43,8 @@ syn sync fromstart ccomment delphiComments
 
 " http://docwiki.embarcadero.com/RADStudio/Tokyo/en/Fundamental_Syntactic_Elements_(Delphi)
 "
-syn keyword delphiBool          true false
-syn keyword delphiConditional   if then else
+syn keyword delphiBool          true false on off
+syn keyword delphiConditional   if then else endif
 syn keyword delphiConstant      nil maxint
 syn keyword delphiLabel         goto label continue break exit
 syn keyword delphiOperator      not and or xor div mod as in is shr shl
