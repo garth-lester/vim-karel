@@ -157,6 +157,7 @@ syn match delphiCallableType "\<procedure\>"
 syn match delphiCallableType "\<constructor\>"
 syn match delphiCallableType "\<destructor\>"
 syn match delphiCallableType "\<operator\>"
+syn match delphiCallableType "\<routine\>"
 
 syn region delphiFunctionParams matchgroup=delphiParenthesis start="(" end=")" fold
       \ contains=ALLBUT,delphiVarBlock,delphiUnitName,delphiSemicolonError
